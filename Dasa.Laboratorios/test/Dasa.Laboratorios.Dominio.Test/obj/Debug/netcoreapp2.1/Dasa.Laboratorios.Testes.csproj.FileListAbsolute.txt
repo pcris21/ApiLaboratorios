@@ -1,0 +1,14 @@
+D:\API Dasa\Dasa.Laboratorios\test\Dasa.Laboratorios.Dominio.Test\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\API Dasa\Dasa.Laboratorios\test\Dasa.Laboratorios.Dominio.Test\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+D:\API Dasa\Dasa.Laboratorios\test\Dasa.Laboratorios.Dominio.Test\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+D:\API Dasa\Dasa.Laboratorios\test\Dasa.Laboratorios.Dominio.Test\bin\Debug\netcoreapp2.1\Dasa.Laboratorios.Testes.deps.json
+D:\API Dasa\Dasa.Laboratorios\test\Dasa.Laboratorios.Dominio.Test\bin\Debug\netcoreapp2.1\Dasa.Laboratorios.Testes.runtimeconfig.json
+D:\API Dasa\Dasa.Laboratorios\test\Dasa.Laboratorios.Dominio.Test\bin\Debug\netcoreapp2.1\Dasa.Laboratorios.Testes.runtimeconfig.dev.json
+D:\API Dasa\Dasa.Laboratorios\test\Dasa.Laboratorios.Dominio.Test\bin\Debug\netcoreapp2.1\Dasa.Laboratorios.Testes.dll
+D:\API Dasa\Dasa.Laboratorios\test\Dasa.Laboratorios.Dominio.Test\obj\Debug\netcoreapp2.1\Dasa.Laboratorios.Testes.csprojAssemblyReference.cache
+D:\API Dasa\Dasa.Laboratorios\test\Dasa.Laboratorios.Dominio.Test\obj\Debug\netcoreapp2.1\Dasa.Laboratorios.Testes.csproj.CoreCompileInputs.cache
+D:\API Dasa\Dasa.Laboratorios\test\Dasa.Laboratorios.Dominio.Test\obj\Debug\netcoreapp2.1\Dasa.Laboratorios.Testes.AssemblyInfoInputs.cache
+D:\API Dasa\Dasa.Laboratorios\test\Dasa.Laboratorios.Dominio.Test\obj\Debug\netcoreapp2.1\Dasa.Laboratorios.Testes.AssemblyInfo.cs
+D:\API Dasa\Dasa.Laboratorios\test\Dasa.Laboratorios.Dominio.Test\bin\Debug\netcoreapp2.1\Dasa.Laboratorios.Testes.pdb
+D:\API Dasa\Dasa.Laboratorios\test\Dasa.Laboratorios.Dominio.Test\obj\Debug\netcoreapp2.1\Dasa.Laboratorios.Testes.dll
+D:\API Dasa\Dasa.Laboratorios\test\Dasa.Laboratorios.Dominio.Test\obj\Debug\netcoreapp2.1\Dasa.Laboratorios.Testes.pdb

@@ -1,0 +1,9 @@
+D:\API Dasa\Dasa.Laboratorios\src\Dasa.Laboratorios.Repositorio\bin\Debug\netcoreapp2.1\Dasa.Laboratorios.Repositorio.deps.json
+D:\API Dasa\Dasa.Laboratorios\src\Dasa.Laboratorios.Repositorio\bin\Debug\netcoreapp2.1\Dasa.Laboratorios.Repositorio.dll
+D:\API Dasa\Dasa.Laboratorios\src\Dasa.Laboratorios.Repositorio\bin\Debug\netcoreapp2.1\Dasa.Laboratorios.Repositorio.pdb
+D:\API Dasa\Dasa.Laboratorios\src\Dasa.Laboratorios.Repositorio\obj\Debug\netcoreapp2.1\Dasa.Laboratorios.Repositorio.csprojAssemblyReference.cache
+D:\API Dasa\Dasa.Laboratorios\src\Dasa.Laboratorios.Repositorio\obj\Debug\netcoreapp2.1\Dasa.Laboratorios.Repositorio.csproj.CoreCompileInputs.cache
+D:\API Dasa\Dasa.Laboratorios\src\Dasa.Laboratorios.Repositorio\obj\Debug\netcoreapp2.1\Dasa.Laboratorios.Repositorio.AssemblyInfoInputs.cache
+D:\API Dasa\Dasa.Laboratorios\src\Dasa.Laboratorios.Repositorio\obj\Debug\netcoreapp2.1\Dasa.Laboratorios.Repositorio.AssemblyInfo.cs
+D:\API Dasa\Dasa.Laboratorios\src\Dasa.Laboratorios.Repositorio\obj\Debug\netcoreapp2.1\Dasa.Laboratorios.Repositorio.dll
+D:\API Dasa\Dasa.Laboratorios\src\Dasa.Laboratorios.Repositorio\obj\Debug\netcoreapp2.1\Dasa.Laboratorios.Repositorio.pdb
