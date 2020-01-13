@@ -24,4 +24,8 @@
     <Folder Include="Queries\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Dasa.Laboratorios.Dominio\Dasa.Laboratorios.Dominio.csproj" />
+  </ItemGroup>
+
 </Project>

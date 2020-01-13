@@ -219,6 +219,19 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Dasa.Laboratorios.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "FluentValidator": "2.0.4"
+        },
+        "compile": {
+          "bin/placeholder/Dasa.Laboratorios.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Dasa.Laboratorios.Shared.dll": {}
+        }
       }
     }
   },
@@ -696,10 +709,16 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "Dasa.Laboratorios.Shared/1.0.0": {
+      "type": "project",
+      "path": "../Dasa.Laboratorios.Shared/Dasa.Laboratorios.Shared.csproj",
+      "msbuildProject": "../Dasa.Laboratorios.Shared/Dasa.Laboratorios.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "Dasa.Laboratorios.Shared >= 1.0.0",
       "FluentValidator >= 2.0.4",
       "Microsoft.NETCore.App >= 2.1.0"
     ]
@@ -733,7 +752,11 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\API Dasa\\Dasa.Laboratorios\\src\\Dasa.Laboratorios.Shared\\Dasa.Laboratorios.Shared.csproj": {
+              "projectPath": "D:\\API Dasa\\Dasa.Laboratorios\\src\\Dasa.Laboratorios.Shared\\Dasa.Laboratorios.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

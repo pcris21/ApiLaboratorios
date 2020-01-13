@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v2.1": {
       "Dasa.Laboratorios.Dominio/1.0.0": {
         "dependencies": {
+          "Dasa.Laboratorios.Shared": "1.0.0",
           "FluentValidator": "2.0.4"
         },
         "runtime": {
@@ -20,6 +21,14 @@
             "assemblyVersion": "2.0.4.0",
             "fileVersion": "2.0.4.0"
           }
+        }
+      },
+      "Dasa.Laboratorios.Shared/1.0.0": {
+        "dependencies": {
+          "FluentValidator": "2.0.4"
+        },
+        "runtime": {
+          "Dasa.Laboratorios.Shared.dll": {}
         }
       }
     }
@@ -36,6 +45,11 @@
       "sha512": "sha512-s0uyVEpMHmtppDdAejirC5A6dgU841Kpb5F5UtPuMpFnFiIepv2tLW4OgA9A/9Vzr7WRaB4dliCFGWwZ5zV1Vw==",
       "path": "fluentvalidator/2.0.4",
       "hashPath": "fluentvalidator.2.0.4.nupkg.sha512"
+    },
+    "Dasa.Laboratorios.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

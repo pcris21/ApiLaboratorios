@@ -1317,6 +1317,33 @@
         "build": {
           "build/netcoreapp1.0/xunit.runner.visualstudio.props": {}
         }
+      },
+      "Dasa.Laboratorios.Dominio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Dasa.Laboratorios.Shared": "1.0.0",
+          "FluentValidator": "2.0.4"
+        },
+        "compile": {
+          "bin/placeholder/Dasa.Laboratorios.Dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Dasa.Laboratorios.Dominio.dll": {}
+        }
+      },
+      "Dasa.Laboratorios.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "FluentValidator": "2.0.4"
+        },
+        "compile": {
+          "bin/placeholder/Dasa.Laboratorios.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Dasa.Laboratorios.Shared.dll": {}
+        }
       }
     }
   },
@@ -4706,11 +4733,22 @@
         "xunit.runner.visualstudio.2.4.1.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "Dasa.Laboratorios.Dominio/1.0.0": {
+      "type": "project",
+      "path": "../../src/Dasa.Laboratorios.Dominio/Dasa.Laboratorios.Dominio.csproj",
+      "msbuildProject": "../../src/Dasa.Laboratorios.Dominio/Dasa.Laboratorios.Dominio.csproj"
+    },
+    "Dasa.Laboratorios.Shared/1.0.0": {
+      "type": "project",
+      "path": "../../src/Dasa.Laboratorios.Shared/Dasa.Laboratorios.Shared.csproj",
+      "msbuildProject": "../../src/Dasa.Laboratorios.Shared/Dasa.Laboratorios.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Bogus >= 28.4.4",
+      "Dasa.Laboratorios.Dominio >= 1.0.0",
       "ExpectedObjects >= 2.3.4",
       "FluentValidator >= 2.0.4",
       "Microsoft.NET.Test.Sdk >= 16.4.0",
@@ -4749,7 +4787,11 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\API Dasa\\Dasa.Laboratorios\\src\\Dasa.Laboratorios.Dominio\\Dasa.Laboratorios.Dominio.csproj": {
+              "projectPath": "D:\\API Dasa\\Dasa.Laboratorios\\src\\Dasa.Laboratorios.Dominio\\Dasa.Laboratorios.Dominio.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
