@@ -12,3 +12,8 @@ D:\API Dasa\Dasa.Laboratorios\test\Dasa.Laboratorios.Dominio.Test\obj\Debug\netc
 D:\API Dasa\Dasa.Laboratorios\test\Dasa.Laboratorios.Dominio.Test\bin\Debug\netcoreapp2.1\Dasa.Laboratorios.Testes.pdb
 D:\API Dasa\Dasa.Laboratorios\test\Dasa.Laboratorios.Dominio.Test\obj\Debug\netcoreapp2.1\Dasa.Laboratorios.Testes.dll
 D:\API Dasa\Dasa.Laboratorios\test\Dasa.Laboratorios.Dominio.Test\obj\Debug\netcoreapp2.1\Dasa.Laboratorios.Testes.pdb
+D:\API Dasa\Dasa.Laboratorios\test\Dasa.Laboratorios.Dominio.Test\bin\Debug\netcoreapp2.1\Dasa.Laboratorios.Dominio.dll
+D:\API Dasa\Dasa.Laboratorios\test\Dasa.Laboratorios.Dominio.Test\bin\Debug\netcoreapp2.1\Dasa.Laboratorios.Shared.dll
+D:\API Dasa\Dasa.Laboratorios\test\Dasa.Laboratorios.Dominio.Test\bin\Debug\netcoreapp2.1\Dasa.Laboratorios.Dominio.pdb
+D:\API Dasa\Dasa.Laboratorios\test\Dasa.Laboratorios.Dominio.Test\bin\Debug\netcoreapp2.1\Dasa.Laboratorios.Shared.pdb
+D:\API Dasa\Dasa.Laboratorios\test\Dasa.Laboratorios.Dominio.Test\obj\Debug\netcoreapp2.1\Dasa.Laboratorios.Testes.csproj.CopyComplete

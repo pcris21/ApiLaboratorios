@@ -9,6 +9,7 @@
       "Dasa.Laboratorios.Testes/1.0.0": {
         "dependencies": {
           "Bogus": "28.4.4",
+          "Dasa.Laboratorios.Dominio": "1.0.0",
           "ExpectedObjects": "2.3.4",
           "FluentValidator": "2.0.4",
           "Microsoft.NET.Test.Sdk": "16.4.0",
@@ -804,6 +805,23 @@
         "dependencies": {
           "Microsoft.NET.Test.Sdk": "16.4.0"
         }
+      },
+      "Dasa.Laboratorios.Dominio/1.0.0": {
+        "dependencies": {
+          "Dasa.Laboratorios.Shared": "1.0.0",
+          "FluentValidator": "2.0.4"
+        },
+        "runtime": {
+          "Dasa.Laboratorios.Dominio.dll": {}
+        }
+      },
+      "Dasa.Laboratorios.Shared/1.0.0": {
+        "dependencies": {
+          "FluentValidator": "2.0.4"
+        },
+        "runtime": {
+          "Dasa.Laboratorios.Shared.dll": {}
+        }
       }
     }
   },
@@ -1239,6 +1257,16 @@
       "sha512": "sha512-70iTd44VD/UcP5kX7Bm6DjNayi9pquI7NhnU7Nl46qWVQBDHVqRrFDXgNrGP936YxefJxzC+2bp1yQUwPJIEvg==",
       "path": "xunit.runner.visualstudio/2.4.1",
       "hashPath": "xunit.runner.visualstudio.2.4.1.nupkg.sha512"
+    },
+    "Dasa.Laboratorios.Dominio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Dasa.Laboratorios.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

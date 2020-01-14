@@ -10,15 +10,13 @@ namespace Dasa.Laboratorios.Dominio.ObjetosDeValor
     {
 
         public Endereco(string logradouro,
-            string numero, 
-            string complemento,
+            string numero,            
             string cidade, 
             string estado,
             string cep)
         {
             Logradouro = logradouro;
-            Numero = numero;
-            Complemento = complemento;
+            Numero = numero;           
             Cidade = cidade;
             Estado = estado;
             Cep = cep;
@@ -37,5 +35,11 @@ namespace Dasa.Laboratorios.Dominio.ObjetosDeValor
         public string Cidade { get; private set; }
         public string Estado { get; private set; }
         public string Cep { get; set; }
+
+
+        private void AdicionarComplemento(string complemento)
+        {
+            Complemento = complemento;
+        }
     }
 }
