@@ -22,7 +22,7 @@ namespace Dasa.Laboratorios.Testes.Entidades
 
 
             _nome = _faker.Random.Word();
-            _endereco = new Endereco(_faker.Address.StreetName(), _faker.Address.BuildingNumber(),
+            _endereco = new Endereco(_faker.Address.StreetName(), _faker.Address.BuildingNumber(), _faker.Address.Random.String(),
                  _faker.Address.City(), _faker.Address.StateAbbr(), _faker.Address.ZipCode());
             _status = Status.Ativo;
 
@@ -89,7 +89,7 @@ namespace Dasa.Laboratorios.Testes.Entidades
         {
             var laboratorioFake = LaboratorioBuilder.Novo().Build();
 
-            var enderecoAlterado = new Endereco(_faker.Address.StreetName(), _faker.Address.BuildingNumber(),
+            var enderecoAlterado = new Endereco(_faker.Address.StreetName(), _faker.Address.BuildingNumber(), _faker.Address.Random.String(),
                  _faker.Address.City(), _faker.Address.StateAbbr(), _faker.Address.ZipCode());
 
             laboratorioFake.AlterarEndereco(enderecoAlterado);
@@ -105,7 +105,7 @@ namespace Dasa.Laboratorios.Testes.Entidades
         {
             var laboratorioFake = LaboratorioBuilder.Novo().Build();
 
-            var enderecoAlterado = new Endereco(_faker.Address.StreetName(), _faker.Address.BuildingNumber(),
+            var enderecoAlterado = new Endereco(_faker.Address.StreetName(), _faker.Address.BuildingNumber(), _faker.Address.Random.String(),
                  _faker.Address.City(), _faker.Address.StateAbbr(), zipCodeInvalido);
 
             laboratorioFake.AlterarEndereco(enderecoAlterado);

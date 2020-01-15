@@ -37,7 +37,7 @@ namespace Dasa.Laboratorios.Dominio.Entidades
         {
             if (endereco.Valid)
             {
-                Endereco = new Endereco(endereco.Logradouro, endereco.Numero,
+                Endereco = new Endereco(endereco.Logradouro, endereco.Numero,endereco.Bairro,
                     endereco.Cidade, endereco.Estado, endereco.Cep);
             }
            

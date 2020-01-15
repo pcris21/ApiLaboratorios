@@ -10,7 +10,7 @@ namespace Dasa.Laboratorios.Testes.Builders
    public class LaboratorioBuilder
     {
         private string _nome = "Delboni";
-        private Endereco _endereco = new Endereco("Rua Lapena", "1234", "Itu", "SP", "01234567");
+        private Endereco _endereco = new Endereco("Rua Lapena", "1234", "Jardins", "Itu", "SP", "01234567");
         private Status _status = Status.Ativo;
         private int _id;
 
@@ -27,7 +27,7 @@ namespace Dasa.Laboratorios.Testes.Builders
 
         public LaboratorioBuilder ComEndereco(Endereco endereco)
         {
-            _endereco = new Endereco(endereco.Logradouro, endereco.Numero, 
+            _endereco = new Endereco(endereco.Logradouro, endereco.Numero, endereco.Bairro,
                 endereco.Cidade, endereco.Estado,endereco.Cep);
 
             return this;

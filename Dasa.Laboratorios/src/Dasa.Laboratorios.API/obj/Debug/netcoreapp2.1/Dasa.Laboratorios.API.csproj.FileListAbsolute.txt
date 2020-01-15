@@ -9,10 +9,10 @@ D:\API Dasa\Dasa.Laboratorios\src\Dasa.Laboratorios.API\bin\Debug\netcoreapp2.1\
 D:\API Dasa\Dasa.Laboratorios\src\Dasa.Laboratorios.API\obj\Debug\netcoreapp2.1\Dasa.Laboratorios.API.csprojAssemblyReference.cache
 D:\API Dasa\Dasa.Laboratorios\src\Dasa.Laboratorios.API\obj\Debug\netcoreapp2.1\Dasa.Laboratorios.API.RazorAssemblyInfo.cache
 D:\API Dasa\Dasa.Laboratorios\src\Dasa.Laboratorios.API\obj\Debug\netcoreapp2.1\Dasa.Laboratorios.API.RazorAssemblyInfo.cs
-D:\API Dasa\Dasa.Laboratorios\src\Dasa.Laboratorios.API\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
 D:\API Dasa\Dasa.Laboratorios\src\Dasa.Laboratorios.API\obj\Debug\netcoreapp2.1\Dasa.Laboratorios.API.RazorTargetAssemblyInfo.cache
 D:\API Dasa\Dasa.Laboratorios\src\Dasa.Laboratorios.API\obj\Debug\netcoreapp2.1\Dasa.Laboratorios.API.dll
 D:\API Dasa\Dasa.Laboratorios\src\Dasa.Laboratorios.API\obj\Debug\netcoreapp2.1\Dasa.Laboratorios.API.pdb
 D:\API Dasa\Dasa.Laboratorios\src\Dasa.Laboratorios.API\bin\Debug\netcoreapp2.1\Dasa.Laboratorios.Ioc.dll
 D:\API Dasa\Dasa.Laboratorios\src\Dasa.Laboratorios.API\bin\Debug\netcoreapp2.1\Dasa.Laboratorios.Ioc.pdb
 D:\API Dasa\Dasa.Laboratorios\src\Dasa.Laboratorios.API\obj\Debug\netcoreapp2.1\Dasa.Laboratorios.API.csproj.CopyComplete
+D:\API Dasa\Dasa.Laboratorios\src\Dasa.Laboratorios.API\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
