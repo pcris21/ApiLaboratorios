@@ -40,8 +40,9 @@ namespace Dasa.Laboratorios.Dominio.ObjetosDeValor
         public string Cep { get; set; }
 
 
-        private void AdicionarComplemento(string complemento)
+        public void AdicionarComplemento(string complemento)
         {
+            
             Complemento = complemento;
         }
     }
