@@ -14,3 +14,4 @@ D:\API Dasa\Dasa.Laboratorios\src\Dasa.Laboratorios.Repositorio\bin\Debug\netcor
 D:\API Dasa\Dasa.Laboratorios\src\Dasa.Laboratorios.Repositorio\obj\Debug\netcoreapp2.1\Dasa.Laboratorios.Repositorio.csproj.CopyComplete
 D:\API Dasa\Dasa.Laboratorios\src\Dasa.Laboratorios.Repositorio\bin\Debug\netcoreapp2.1\Dasa.Laboratorios.Repositorio.runtimeconfig.json
 D:\API Dasa\Dasa.Laboratorios\src\Dasa.Laboratorios.Repositorio\bin\Debug\netcoreapp2.1\Dasa.Laboratorios.Repositorio.runtimeconfig.dev.json
+D:\API Dasa\Dasa.Laboratorios\src\Dasa.Laboratorios.Repositorio\bin\Debug\netcoreapp2.1\Dasa.Laboratorios.Repositorio.dll.config

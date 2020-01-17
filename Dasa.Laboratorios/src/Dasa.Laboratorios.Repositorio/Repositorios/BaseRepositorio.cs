@@ -7,10 +7,10 @@ using Dasa.Laboratorios.Shared.Entidades;
 
 namespace Dasa.Laboratorios.Repositorio.Repositorios
 {
-    public class RepositorioBase<TEntidade> : IRepositorioBase<TEntidade> where TEntidade : EntidadeBase
+    public class BaseRepositorio<TEntidade> : IBaseRepositorio<TEntidade> where TEntidade : EntidadeBase
     {
         protected readonly ContextoLaboratorioBD _contexto;
-        public RepositorioBase(ContextoLaboratorioBD contexto)
+        public BaseRepositorio(ContextoLaboratorioBD contexto)
         {
             _contexto = contexto;
         }

@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System.Configuration;
+using System.Threading.Tasks;
 using Dasa.Laboratorios.Dominio.Entidades;
 using Dasa.Laboratorios.Dominio.Enuns;
 using Dasa.Laboratorios.Dominio.Repositorios;
@@ -57,6 +58,11 @@ namespace Dasa.Laboratorios.Repositorio.Contexto
             ExameMap(modelBuilder);
 
            // base.OnModelCreating(modelBuilder);
+        }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder opcoes)
+        {
+            opcoes.UseSqlServer(ConfigurationManager.ConnectionStrings["DasaGestaoLab"].ConnectionString);
         }
         
     }

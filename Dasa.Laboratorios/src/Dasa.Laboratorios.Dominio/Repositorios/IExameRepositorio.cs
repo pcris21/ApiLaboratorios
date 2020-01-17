@@ -1,6 +1,8 @@
-﻿namespace Dasa.Laboratorios.Dominio.Repositorios
+﻿using Dasa.Laboratorios.Dominio.Entidades;
+
+namespace Dasa.Laboratorios.Dominio.Repositorios
 {
-    public interface IExameRepositorio
+    public interface IExameRepositorio: IBaseRepositorio<Exame>
     {
     }
 }

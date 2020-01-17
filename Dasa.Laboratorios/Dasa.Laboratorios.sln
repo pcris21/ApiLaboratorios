@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dasa.Laboratorios.Testes", "test\Dasa.Laboratorios.Dominio.Test\Dasa.Laboratorios.Testes.csproj", "{D040E065-EAB2-4701-B667-3310B315D171}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dasa.Laboratorios.Testes", "test\Dasa.Laboratorios.Dominio.Test\Dasa.Laboratorios.Testes.csproj", "{D040E065-EAB2-4701-B667-3310B315D171}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dasa.Laboratorios.Dominio", "src\Dasa.Laboratorios.Dominio\Dasa.Laboratorios.Dominio.csproj", "{F489C777-F928-4ADD-927F-B0D89C358E04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dasa.Laboratorios.Dominio", "src\Dasa.Laboratorios.Dominio\Dasa.Laboratorios.Dominio.csproj", "{F489C777-F928-4ADD-927F-B0D89C358E04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dasa.Laboratorios.API", "src\Dasa.Laboratorios.API\Dasa.Laboratorios.API.csproj", "{C422D606-C7A4-443A-A036-2E0DDAFE40AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dasa.Laboratorios.API", "src\Dasa.Laboratorios.API\Dasa.Laboratorios.API.csproj", "{C422D606-C7A4-443A-A036-2E0DDAFE40AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dasa.Laboratorios.Repositorio", "src\Dasa.Laboratorios.Repositorio\Dasa.Laboratorios.Repositorio.csproj", "{3CDB7500-5FA9-4E9D-BAF7-2E62ABCAB1B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dasa.Laboratorios.Repositorio", "src\Dasa.Laboratorios.Repositorio\Dasa.Laboratorios.Repositorio.csproj", "{3CDB7500-5FA9-4E9D-BAF7-2E62ABCAB1B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dasa.Laboratorios.Shared", "src\Dasa.Laboratorios.Shared\Dasa.Laboratorios.Shared.csproj", "{BDCDEB01-E401-4D24-AB84-80B45CD98E7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dasa.Laboratorios.Shared", "src\Dasa.Laboratorios.Shared\Dasa.Laboratorios.Shared.csproj", "{BDCDEB01-E401-4D24-AB84-80B45CD98E7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dasa.Laboratorios.Ioc", "src\Dasa.Laboratorios.Ioc\Dasa.Laboratorios.Ioc.csproj", "{3808694A-5D59-46CA-990F-8210D8108CE9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dasa.Laboratorios.Ioc", "src\Dasa.Laboratorios.Ioc\Dasa.Laboratorios.Ioc.csproj", "{468AAEE1-4329-4A9E-89E2-7D33D791C752}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +41,10 @@ Global
 		{BDCDEB01-E401-4D24-AB84-80B45CD98E7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDCDEB01-E401-4D24-AB84-80B45CD98E7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDCDEB01-E401-4D24-AB84-80B45CD98E7E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3808694A-5D59-46CA-990F-8210D8108CE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3808694A-5D59-46CA-990F-8210D8108CE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3808694A-5D59-46CA-990F-8210D8108CE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3808694A-5D59-46CA-990F-8210D8108CE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{468AAEE1-4329-4A9E-89E2-7D33D791C752}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{468AAEE1-4329-4A9E-89E2-7D33D791C752}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{468AAEE1-4329-4A9E-89E2-7D33D791C752}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{468AAEE1-4329-4A9E-89E2-7D33D791C752}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

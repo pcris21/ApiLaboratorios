@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Dasa.Laboratorios.Dominio.Repositorios
 {
-    public interface IRepositorioBase<TEntidade>
+    public interface IBaseRepositorio<TEntidade>
     {
         List<TEntidade> Listar();
         void Adicionar(TEntidade entidade);
