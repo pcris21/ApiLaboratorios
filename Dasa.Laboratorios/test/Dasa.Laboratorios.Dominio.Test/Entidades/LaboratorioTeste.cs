@@ -17,10 +17,7 @@ namespace Dasa.Laboratorios.Testes.Entidades
         public LaboratorioTeste()
         {
             _faker = new Faker();
-
-            //endereco
-
-
+            
             _nome = _faker.Random.Word();
             _endereco = new Endereco(_faker.Address.StreetName(), _faker.Address.BuildingNumber(), _faker.Address.Random.String(),
                  _faker.Address.City(), _faker.Address.StateAbbr(), _faker.Address.ZipCode());
