@@ -39,8 +39,7 @@ namespace Dasa.Laboratorios.Dominio.Entidades
             {
                 Endereco = new Endereco(endereco.Logradouro, endereco.Numero,endereco.Bairro,
                     endereco.Cidade, endereco.Estado, endereco.Cep);
-            }
-           
+            }           
 
         }
 

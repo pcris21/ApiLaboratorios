@@ -6,7 +6,6 @@
 
   <ItemGroup>
     <Folder Include="Commands\LaboratorioCommands\Outputs\" />
-    <Folder Include="Queries\" />
   </ItemGroup>
 
   <ItemGroup>
