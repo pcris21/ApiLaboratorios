@@ -59,8 +59,9 @@ namespace Dasa.Laboratorios.Testes.Entidades
             var nomeEsperado = _faker.Random.Word();
             var laboratorioFake = LaboratorioBuilder.Novo().Build();
             laboratorioFake.AlterarNome(nomeEsperado);
-
+                        
             Assert.True(laboratorioFake.Valid);
+            Assert.Equal(laboratorioFake.Nome, nomeEsperado);
         }
 
         [Theory]
@@ -72,6 +73,7 @@ namespace Dasa.Laboratorios.Testes.Entidades
             var laboratorioFake = LaboratorioBuilder.Novo().Build();
             laboratorioFake.AlterarNome(nomeInvalido);
 
+            Assert.NotEqual(laboratorioFake.Nome, nomeInvalido);
             Assert.True(laboratorioFake.Invalid);
         }
 

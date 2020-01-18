@@ -41,7 +41,8 @@ namespace Dasa.Laboratorios.Dominio.Entidades
             AddNotifications(new ValidationContract()
              .HasMinLen(nome, 3, "Nome", Mensagens.NomeInvalido));
 
-            Nome = nome;
+            if (Notifications.Count == 0)               
+                Nome = nome;
         }
 
         public void AlterarEndereco(Endereco endereco)

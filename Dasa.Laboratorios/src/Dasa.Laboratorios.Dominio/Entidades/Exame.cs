@@ -36,7 +36,12 @@ namespace Dasa.Laboratorios.Dominio.Entidades
 
         public void AlterarNome(string nome)
         {
+            AddNotifications(new ValidationContract()
+                .HasMinLen(nome, 3, "Nome", Mensagens.NomeInvalido));
 
+            if (Notifications.Count == 0)           
+                Nome = nome;
+                      
         }
 
         public void AlterarTipo(TipoExame tipo)

@@ -1,6 +1,7 @@
 ﻿using Bogus;
 using Dasa.Laboratorios.Dominio.Entidades;
 using Dasa.Laboratorios.Dominio.Enuns;
+using Dasa.Laboratorios.Testes.Builders;
 using ExpectedObjects;
 using System;
 using System.Collections.Generic;
@@ -47,13 +48,17 @@ namespace Dasa.Laboratorios.Testes.Entidades
         [InlineData("Z")]
         public void NaoDeveCriarExameComNomeInvalido(string nomeInvalido)
         {
-
+            var exameFake = ExameBuilder.Novo().ComNome(nomeInvalido).Build();
+            Assert.True(exameFake.Invalid);
         }
 
         [Fact]
         public void DeveAlterarNome()
         {
-
+            var nomeEsperado = _faker.Random.Word();
+            var exameFake = ExameBuilder.Novo().Build();
+            exameFake.AlterarNome(nomeEsperado);
+            Assert.Equal(exameFake.Nome, nomeEsperado);
         }
 
         [Theory]
@@ -62,7 +67,11 @@ namespace Dasa.Laboratorios.Testes.Entidades
         [InlineData("H")]
         public void NaoDeveAlterarExameQuandoNomeForInvalido(string nomeInvalido)
         {
+            var exameFake = ExameBuilder.Novo().Build();
+            exameFake.AlterarNome(nomeInvalido);
 
+            Assert.NotEqual(exameFake.Nome, nomeInvalido);
+            Assert.True(exameFake.Invalid);
         }
 
         [Fact]
