@@ -45,6 +45,8 @@ namespace Dasa.Laboratorios.API
                 app.UseHsts();
             }
 
+            
+            
             app.UseHttpsRedirection();
             app.UseMvc();
         }

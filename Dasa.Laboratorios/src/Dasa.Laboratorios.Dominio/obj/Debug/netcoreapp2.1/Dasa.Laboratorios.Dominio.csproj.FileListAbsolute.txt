@@ -1,12 +1,12 @@
 D:\API Dasa\Dasa.Laboratorios\src\Dasa.Laboratorios.Dominio\bin\Debug\netcoreapp2.1\Dasa.Laboratorios.Dominio.deps.json
 D:\API Dasa\Dasa.Laboratorios\src\Dasa.Laboratorios.Dominio\bin\Debug\netcoreapp2.1\Dasa.Laboratorios.Dominio.dll
+D:\API Dasa\Dasa.Laboratorios\src\Dasa.Laboratorios.Dominio\bin\Debug\netcoreapp2.1\Dasa.Laboratorios.Dominio.pdb
+D:\API Dasa\Dasa.Laboratorios\src\Dasa.Laboratorios.Dominio\bin\Debug\netcoreapp2.1\Dasa.Laboratorios.Shared.dll
+D:\API Dasa\Dasa.Laboratorios\src\Dasa.Laboratorios.Dominio\bin\Debug\netcoreapp2.1\Dasa.Laboratorios.Shared.pdb
 D:\API Dasa\Dasa.Laboratorios\src\Dasa.Laboratorios.Dominio\obj\Debug\netcoreapp2.1\Dasa.Laboratorios.Dominio.csprojAssemblyReference.cache
 D:\API Dasa\Dasa.Laboratorios\src\Dasa.Laboratorios.Dominio\obj\Debug\netcoreapp2.1\Dasa.Laboratorios.Dominio.csproj.CoreCompileInputs.cache
 D:\API Dasa\Dasa.Laboratorios\src\Dasa.Laboratorios.Dominio\obj\Debug\netcoreapp2.1\Dasa.Laboratorios.Dominio.AssemblyInfoInputs.cache
 D:\API Dasa\Dasa.Laboratorios\src\Dasa.Laboratorios.Dominio\obj\Debug\netcoreapp2.1\Dasa.Laboratorios.Dominio.AssemblyInfo.cs
-D:\API Dasa\Dasa.Laboratorios\src\Dasa.Laboratorios.Dominio\bin\Debug\netcoreapp2.1\Dasa.Laboratorios.Dominio.pdb
+D:\API Dasa\Dasa.Laboratorios\src\Dasa.Laboratorios.Dominio\obj\Debug\netcoreapp2.1\Dasa.Laboratorios.Dominio.csproj.CopyComplete
 D:\API Dasa\Dasa.Laboratorios\src\Dasa.Laboratorios.Dominio\obj\Debug\netcoreapp2.1\Dasa.Laboratorios.Dominio.dll
 D:\API Dasa\Dasa.Laboratorios\src\Dasa.Laboratorios.Dominio\obj\Debug\netcoreapp2.1\Dasa.Laboratorios.Dominio.pdb
-D:\API Dasa\Dasa.Laboratorios\src\Dasa.Laboratorios.Dominio\bin\Debug\netcoreapp2.1\Dasa.Laboratorios.Shared.dll
-D:\API Dasa\Dasa.Laboratorios\src\Dasa.Laboratorios.Dominio\bin\Debug\netcoreapp2.1\Dasa.Laboratorios.Shared.pdb
-D:\API Dasa\Dasa.Laboratorios\src\Dasa.Laboratorios.Dominio\obj\Debug\netcoreapp2.1\Dasa.Laboratorios.Dominio.csproj.CopyComplete
