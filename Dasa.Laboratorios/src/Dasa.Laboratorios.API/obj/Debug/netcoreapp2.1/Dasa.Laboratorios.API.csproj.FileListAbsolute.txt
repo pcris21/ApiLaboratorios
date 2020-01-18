@@ -21,3 +21,5 @@ D:\API Dasa\Dasa.Laboratorios\src\Dasa.Laboratorios.API\bin\Debug\netcoreapp2.1\
 D:\API Dasa\Dasa.Laboratorios\src\Dasa.Laboratorios.API\bin\Debug\netcoreapp2.1\Dasa.Laboratorios.Dominio.pdb
 D:\API Dasa\Dasa.Laboratorios\src\Dasa.Laboratorios.API\bin\Debug\netcoreapp2.1\Dasa.Laboratorios.Shared.pdb
 D:\API Dasa\Dasa.Laboratorios\src\Dasa.Laboratorios.API\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+D:\API Dasa\Dasa.Laboratorios\src\Dasa.Laboratorios.API\bin\Debug\netcoreapp2.1\Dasa.Laboratorios.Ioc.dll
+D:\API Dasa\Dasa.Laboratorios\src\Dasa.Laboratorios.API\bin\Debug\netcoreapp2.1\Dasa.Laboratorios.Ioc.pdb
