@@ -3,6 +3,7 @@ using Dasa.Laboratorios.Dominio.Commands.LaboratorioCommands.Inputs;
 using Dasa.Laboratorios.Dominio.Entidades;
 using Dasa.Laboratorios.Dominio.ObjetosDeValor;
 using Dasa.Laboratorios.Dominio.Repositorios;
+using Dasa.Laboratorios.Shared;
 using Dasa.Laboratorios.Shared.Commands;
 using FluentValidator;
 
@@ -32,7 +33,7 @@ namespace Dasa.Laboratorios.Dominio.Handlers
 
             //verificar se endereço é valido
             if (endereco.Invalid)
-                return new CommandResult(false, "Por favor, corrija os seguintes campos:", Notifications);
+                return new CommandResult(false, Mensagens.CorrigirCampos, Notifications);
 
 
             //criar entidade laboratorio
@@ -40,12 +41,12 @@ namespace Dasa.Laboratorios.Dominio.Handlers
 
             //verificar se entidade é valida
             if (laboratorio.Invalid)
-                return new CommandResult(false, "Por favor, corrija os seguintes campos", Notifications);
+                return new CommandResult(false, Mensagens.CorrigirCampos, Notifications);
 
             //Inserir
             _laboratorioRepository.Adicionar(laboratorio);
 
-            return new CommandResult(true, "Laboratorio Cadastrado com Sucesso", new { });
+            return new CommandResult(true, Mensagens.LaboratorioCadastrado, new { });
             
         }
     }

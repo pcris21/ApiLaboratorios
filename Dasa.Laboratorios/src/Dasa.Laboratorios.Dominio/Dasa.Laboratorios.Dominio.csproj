@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Commands\ExameCommands\Outputs\" />
     <Folder Include="Commands\LaboratorioCommands\Outputs\" />
   </ItemGroup>
 
