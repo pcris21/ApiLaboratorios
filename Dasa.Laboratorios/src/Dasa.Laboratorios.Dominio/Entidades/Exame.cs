@@ -27,8 +27,8 @@ namespace Dasa.Laboratorios.Dominio.Entidades
         #region Propriedades
 
         public string Nome { get; private set; }
-        public TipoExame Tipo { get; private set; }
-        public Status Status { get; set; }
+        public virtual TipoExame Tipo { get; private set; }
+        public virtual Status Status { get; set; }
 
         #endregion
 

@@ -1,4 +1,5 @@
 ﻿using Dasa.Laboratorios.Dominio.Entidades;
+using Dasa.Laboratorios.Dominio.Queries;
 using Dasa.Laboratorios.Dominio.Repositorios;
 using Dasa.Laboratorios.Repositorio.Contexto;
 using System;
@@ -11,6 +12,17 @@ namespace Dasa.Laboratorios.Repositorio.Repositorios
     {
         public LaboratorioRepositorio(ContextoLaboratorioBD contexto) : base(contexto)
         {
+        }
+
+        
+
+        IEnumerable<LaboratorioQueryResult> ILaboratorioRepositorio.Listar()
+        {
+            var result = new List<LaboratorioQueryResult>();
+            result.Add(new LaboratorioQueryResult { Nome = "Delboni", Status = "Ativo" });
+            result.Add(new LaboratorioQueryResult { Nome = "Lavoisier", Status = "Ativo" });
+
+            return result;
         }
     }
 }

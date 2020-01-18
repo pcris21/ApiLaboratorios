@@ -11,10 +11,10 @@ namespace Dasa.Laboratorios.Dominio.Handlers
 {
     public class LaboratorioHandler : Notifiable, ICommandHandler<CriarLaboratorioCommand>
     {
-        private readonly ILaboratorioRepositorio _laboratorioRepository;
+        private readonly ILaboratorioRepositorio _laboratorioRepositorio;
         public LaboratorioHandler(ILaboratorioRepositorio laboratorioRepositorio)
         {
-            _laboratorioRepository = laboratorioRepositorio;
+            _laboratorioRepositorio = laboratorioRepositorio;
         }
 
         public ICommandResult Handle(CriarLaboratorioCommand command)
@@ -33,7 +33,7 @@ namespace Dasa.Laboratorios.Dominio.Handlers
 
             //verificar se endereço é valido
             if (endereco.Invalid)
-                return new CommandResult(false, Mensagens.CorrigirCampos, Notifications);
+                return new CommandResult(false, Mensagens.CorrigirCampos, endereco.Notifications);
 
 
             //criar entidade laboratorio
@@ -41,10 +41,10 @@ namespace Dasa.Laboratorios.Dominio.Handlers
 
             //verificar se entidade é valida
             if (laboratorio.Invalid)
-                return new CommandResult(false, Mensagens.CorrigirCampos, Notifications);
+                return new CommandResult(false, Mensagens.CorrigirCampos, laboratorio.Notifications);
 
             //Inserir
-            _laboratorioRepository.Adicionar(laboratorio);
+            _laboratorioRepositorio.Adicionar(laboratorio);
 
             return new CommandResult(true, Mensagens.LaboratorioCadastrado, new { });
             

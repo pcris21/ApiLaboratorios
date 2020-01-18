@@ -5,9 +5,9 @@ namespace Dasa.Laboratorios.Dominio.Repositorios
 {
     public interface IBaseRepositorio<TEntidade>
     {
-        List<TEntidade> Listar();
         void Adicionar(TEntidade entidade);
         void Editar(TEntidade entidade, Guid id);
         void Excluir(Guid id);
+        void Salvar();
     }
 }

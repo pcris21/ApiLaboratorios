@@ -28,8 +28,8 @@ namespace Dasa.Laboratorios.Dominio.Entidades
         #region Propriedades
 
         public string Nome { get; private set; }
-        public Endereco Endereco { get; private set; }
-        public Status Status { get; private set; }
+        public virtual Endereco Endereco { get; private set; }
+        public virtual Status Status { get; private set; }
 
         #endregion
 

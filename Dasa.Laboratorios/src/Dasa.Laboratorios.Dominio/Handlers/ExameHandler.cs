@@ -26,10 +26,10 @@ namespace Dasa.Laboratorios.Dominio.Handlers
 
             if (exame.Invalid)
             {
-                return new CommandResult(false, Mensagens.CorrigirCampos, Notifications);
+                return new CommandResult(false, Mensagens.CorrigirCampos, exame.Notifications);
             }
 
-
+            //inserir 
             _exameRepositorio.Adicionar(exame);
 
             return new CommandResult(true, Mensagens.ExameCadastrado, new { });

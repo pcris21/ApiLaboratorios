@@ -31,12 +31,8 @@ namespace Dasa.Laboratorios.API.Controllers
         [Route("v1/laboratorios")]
         public IEnumerable<LaboratorioQueryResult> Get()
         {
-            var result = new List<LaboratorioQueryResult>();
-
-            result.Add(new LaboratorioQueryResult { Nome = "Delboni", Status = "Ativo" });
-            result.Add(new LaboratorioQueryResult { Nome = "Lavoisier", Status = "Ativo" });
-
-            return result.AsEnumerable();
+           return  _laboratorioRepositorio.Listar();
+           
         }
 
         [HttpPost]

@@ -12,6 +12,9 @@ namespace Dasa.Laboratorios.Ioc
     {
         public static void ConfiguraServicos(IServiceCollection servicos, IConfiguration configuracao)
         {
+
+            servicos.AddScoped<ContextoLaboratorioBD, ContextoLaboratorioBD>();
+
             servicos.AddDbContext<ContextoLaboratorioBD>(opcoes =>
             opcoes.UseSqlServer(configuracao.GetConnectionString("DefaultConnection")));
 
